@@ -7,6 +7,7 @@ function CTA() {
         <a href={CV} download className='btn'><span>Télécharger CV</span></a>
         <a href="#contact" className='btn btn-primary'><span>Contact</span></a>
     </div>
+    
   )
 }
 
