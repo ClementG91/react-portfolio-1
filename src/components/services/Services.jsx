@@ -60,25 +60,25 @@ function services() {
             {/* fin de Web dev */}
             <article className='service'>
                 <div className='service__head'>
-                    <h3>Création</h3>
+                    <h3>Analyse des Données</h3>
                 </div>
 
                 <ul className='service__list'>
                     <li>
                         <BiCheck className='service__list-icon' />
-                        <p> fesfgsdfgsd, dfsdfsfvsf, efdsfssdfsdcf</p>
+                        <p>Manipuler des tableaux avec NumPy / Créer des data frames avec Pandas.</p>
                     </li>
                     <li>
                         <BiCheck className='service__list-icon' />
-                        <p> fesfgsdfgsd, dfsdfsfvsf, efdsfssdfsdcf</p>
+                        <p>Construire des data visualisations avec Matplotlib et Seaborn.</p>
                     </li>
                     <li>
                         <BiCheck className='service__list-icon' />
-                        <p> fesfgsdfgsd, dfsdfsfvsf, efdsfssdfsdcf</p>
+                        <p>Analyser des données pour choisir le type de base de données appropriée.</p>
                     </li>
                     <li>
                         <BiCheck className='service__list-icon' />
-                        <p> fesfgsdfgsd, dfsdfsfvsf, efdsfssdfsdcf</p>
+                        <p>Tester une hypothèse sur une proportion, une moyenne ou une variance.</p>
                     </li>
                 </ul>
             </article>

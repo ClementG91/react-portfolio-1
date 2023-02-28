@@ -46,7 +46,7 @@ const About = () => {
           je souhaite développer mes compétences tout en ayant une expériences professionnelle significative.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Parlons !</a>
+          <a href="#contact" className='btn btn-primary'><span>Parlons !</span></a>
 
 
         </div>

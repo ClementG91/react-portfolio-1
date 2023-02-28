@@ -20,7 +20,7 @@ const Portfolio = () => {
           <h3>Bot de trading Crypto-FTX</h3>
           <div className='portfolio__item-cta'>
             <a href='https://github.com/ClementG91/FTX-RIP' className='btn'>Github</a>
-            <a href='/#' className='btn btn-primary'>Démo</a>
+            <a href='/#' className='btn btn-primary'><span>Démo</span></a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -30,7 +30,7 @@ const Portfolio = () => {
           <h3>Bot PRE farm</h3>
           <div className='portfolio__item-cta'>
             <a href='https://github.com/ClementG91/presearch-bot' className='btn'>Github</a>
-            <a href='/#' className='btn btn-primary'>Démo</a>
+            <a href='/#' className='btn btn-primary'><span>Démo</span></a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -40,7 +40,7 @@ const Portfolio = () => {
           <h3>Bot Boost Vinted</h3>
           <div className='portfolio__item-cta'>
             <a href='https://github.com/ClementG91/bot-vinted' className='btn'>Github</a>
-            <a href='/#' className='btn btn-primary'>Démo</a>
+            <a href='/#' className='btn btn-primary'><span>Démo</span></a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -50,7 +50,7 @@ const Portfolio = () => {
           <h3>MirrorMultiTchan BOT </h3>
           <div className='portfolio__item-cta'>
             <a href='https://github.com/ClementG91/Portfolio-React/tree/master/react-portfolio-1' className='btn'>Github</a>
-            <a href='/#' className='btn btn-primary'>Démo</a>
+            <a href='/#' className='btn btn-primary'><span>Démo</span></a>
           </div>
         </article>
       </div>

@@ -93,18 +93,51 @@ a:hover {
     transition: var(--transition);
 }
 
-.btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
-    border-color: transparent;
-}
-
 .btn-primary {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   }
+   
+   .btn-primary:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
     background: var(--color-primary);
-    color: var(--color-bg);
-}
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+   }
+   
+   .btn-primary:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+   }
+   
+   .btn-primary span {
+    z-index: 20;
+   }
+   
+   
+   @keyframes scaleUp {
+    0% {
+     transform: scale(1);
+    }
+   
+    50% {
+     transform: scale(0.95);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
 
- img {
+img {
     display: block;
     width: 100%;
     object-fit: cover;
