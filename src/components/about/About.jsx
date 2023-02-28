@@ -23,7 +23,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icons'/>
               <h5>Experiences</h5>
-              <small>8 mois en autodidacte</small>
+              <small>12 mois en autodidacte</small>
             </article>
 
             <article className='about__card'>
@@ -35,15 +35,14 @@ const About = () => {
             <article className='about__card'>
               <AiFillFolder className='about__icons'/>
               <h5>Projets</h5>
-              <small>6 projets completer</small>
+              <small>6 projets completés</small>
             </article>
             
           </div>
 
           <p>
           Actuellement en reconversion professionnelle, je cherche à démarrer une formation d'intégrateur WEB en Alternance.
-          Polyvalent, autonome, ayant la soif d'apprendre ainsi qu'extrêmement motiver,
-          je souhaite développer mes compétences tout en ayant une expériences professionnelle significative.
+          Polyvalent, autonome, ayant la soif d'apprendre ainsi qu'extrêmement motivé, je souhaite développer mes compétences tout en ayant une expérience professionnelle significative.
           </p>
 
           <a href="#contact" className='btn btn-primary'><span>Parlons !</span></a>

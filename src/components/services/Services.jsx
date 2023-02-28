@@ -74,7 +74,7 @@ function services() {
                     </li>
                     <li>
                         <BiCheck className='service__list-icon' />
-                        <p>Analyser des données pour choisir le type de base de données appropriée.</p>
+                        <p>Analyser des données pour choisir le type de base de données appropriées.</p>
                     </li>
                     <li>
                         <BiCheck className='service__list-icon' />
