@@ -42,7 +42,7 @@ const About = () => {
 
           <p>
           Actuellement en reconversion professionnelle, je cherche à démarrer une formation d'intégrateur WEB en Alternance.
-          Polyvalent, autonome, ayant la soif d'apprendre ainsi qu'extrêmement motivé, je souhaite développer mes compétences tout en ayant une expérience professionnelle significative.
+          Extrêmement motivé, polyvalent, autonome et ayant soif d'apprendre, je souhaite ainsi développer mes compétences tout en ayant une expérience professionnelle significative.
           </p>
 
           <a href="#contact" className='btn btn-primary'><span>Parlons !</span></a>
