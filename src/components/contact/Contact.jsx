@@ -28,7 +28,7 @@ const Contact = () => {
               <AiOutlineMail className='contact__option-icon'/>
               <h4>Email</h4>
               <h5>clement.genest91@laposte.net</h5>
-              <a href='mailto:clement.genest91@laposte.net'>Envoyer moi un mail</a>
+              <a href='mailto:clement.genest91@laposte.net'>Envoyez moi un mail</a>
             </article>
             <article className='contact__option'>
               <RxDiscordLogo className='contact__option-icon'/>
@@ -40,7 +40,7 @@ const Contact = () => {
               <BsTelephone className='contact__option-icon'/>
               <h4>Téléphone</h4>
               <h5>06.42.80.55.76</h5>
-              <a href='tel:+33642805576'>Apeller moi</a>
+              <a href='tel:+33642805576'>Apellez moi</a>
             </article>
           </div>
           {/* fin de contact option */}
