@@ -30,3 +30,12 @@ nav a.active {
     background: var(--color-bg);
     color: var(--color-white)
 }
+
+
+ /* responsive petite taille */ 
+
+ @media screen and (max-width: 600px) {
+    nav {
+        gap: 0.2rem;
+    }
+ }
